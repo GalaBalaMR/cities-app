@@ -1,0 +1,36 @@
+@import '__variables.scss';
+
+footer{
+    background-color: $color-footer-b;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    ul{
+        list-style-type: none;
+
+        li{
+            color: $color-footer-h;
+            a{
+                text-decoration: none;
+                color: $color-footer-h;
+            }
+            span{
+                color: $color-footer-h;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+        }
+
+    }
+    .rapid-alert{
+        li{
+            span{
+                color: $color-blue;
+            }
+            
+            a{
+                color: $color-blue;
+            }
+
+        }
+    }
+}

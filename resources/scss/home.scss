@@ -1,0 +1,15 @@
+@import '__variables.scss';
+
+.home{
+    background-image: linear-gradient($color-blue , #13A9F7);
+    height: 80vh;
+    padding-top: 30vh;
+
+    h1{
+        color: $color-white;
+        font-size: 3.5rem;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+
+}

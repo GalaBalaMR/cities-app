@@ -1,0 +1,55 @@
+@import '__variables.scss';
+
+.show{
+    padding-bottom: 5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.256);
+    
+
+    .row{
+        box-shadow: 0px 0px 18px 3px rgba(170, 170, 170, 0.489);
+    }
+
+    h1{
+        font-weight: 300;
+        padding: 2rem;
+    }
+
+    .info{
+        padding: 5rem 6rem;
+        background-color: #cecdcd28;
+        @media( max-width: 767px){ 
+            padding: 0.5rem;
+        }
+
+        p{
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+
+            span{
+                width: 40%;
+                display: block;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .erb{
+        padding: 5rem 6rem;
+
+        img{
+            max-width: 7rem;
+            min-width: 7rem;
+        }
+
+        p{
+            color: $color-blue;
+            padding-top: 0.5rem;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+    }
+}
