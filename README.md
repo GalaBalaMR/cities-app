@@ -18,7 +18,7 @@
   
 
 
-- I want to apologize, but i was not able find right way for setting charset. I try add header, iconv, packages for repair data after parsing, but without some better changes. Web use charset windows-1250, parser return data in utf-8. I will really appreciate when you can give me feedback with some advice, what i did bad(especially with charset :) ). 
+- I want to apologize, but i was not able find right way for setting charset. I try add header, iconv, packages for repair data after parsing, but without some better changes. Web use charset windows-1250, parser return data in utf-8. I will really appreciate when you can give me feedback with some advice, what i did bad(especially with charset :) ). And i had problem with 429 error, because it was my first time with some parser, so I had to run many request. On the begining i did not have this problem, i do not know, if server can remember me for longer time. But I think that for the first time, it is good.
 Thank you for your time.
   
 
