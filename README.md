@@ -5,20 +5,21 @@
 
 ### <div align="center">Hello! My name is Matúš and I believe, that one day i will be great developer 👨‍💻! For this moment, I just learn because it is only way how to change my dream in to reality🙂</div>  
   
+- 🏃‍♂️ just install npm, composer and in console npm run dev, that's it! (I hope...) Commands run with php artisan data:import and php artisan data:geocode
 
-- 🔭 That's it, ladies and gentlmens, this is my first e-commerce ever! Yes, it's not perfect, still in progress, but i hope that this project can represent my knowledge of laravel 🙂  
+- 🔭 Small project about parsing data from another web page 🙂  
   
 
 
 
-### About Project  
-- 🛠️ Small e-commerce with logic for admin and user.   
+### About Project     
+
+- ❓ What i use? "voku/simple_html_dom" for parsing, "toin0u/geocoder-laravel" for geocoding, "bootstrap-3-typeahead" for searching and autocompleting. And some Bootstrap, SCSS, jQuery...  
   
 
-- ❓ What it does? I hope everything, what's needed. You can add categories, subcategories of items, items and when something important happend, admin receive message about it in admin panel and customer receive mail about his order.  
-  
 
-- 🏃‍♂️ It is running on Laravel and use package like spatie, fullcalendar and more...  
+- I want to apologize, but i was not able find right way for setting charset. I try add header, iconv, packages for repair data after parsing, but without some better changes. Web use charset windows-1250, parser return data in utf-8. I will really appreciate when you can give me feedback with some advice, what i did bad(especially with charset :) ). 
+Thank you for your time.
   
 
 <br/>  
